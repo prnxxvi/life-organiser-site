@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Organiser</title>
+  <meta name="description" content="A personal app that keeps one student's tasks, money and calendar in one place.">
+  <style>
+    :root { --bg: #F2F2F7; --card: #FFFFFF; --text: #111114; --muted: #6B6B70; --accent: #0062CC; color-scheme: light; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #000000; --card: #1C1C1E; --text: #F2F2F7; --muted: #A1A1A6; --accent: #5AA2FF; color-scheme: dark; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 system-ui, -apple-system, "SF Pro Text", sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; display: flex; flex-direction: column; gap: 20px; }
+    h1 { font-size: 34px; margin: 0; letter-spacing: -0.02em; }
+    .card { background: var(--card); border-radius: 13px; padding: 18px 20px; }
+    .card h2 { font-size: 17px; margin: 0 0 6px; }
+    .card p, .card li { margin: 0; color: var(--muted); }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Life Organiser</h1>
+    <p>A personal app built by one student, for their own use. It keeps tasks, spending and classes in one place on their phone.</p>
+    <section class="card">
+      <h2>What it does</h2>
+      <ul>
+        <li>Tasks with due dates, grouped by School, Tutoring and Personal</li>
+        <li>Spending tracked in Singapore dollars</li>
+        <li>This week's Google Calendar events, with new events added from the app</li>
+        <li>Bank payment alerts in Gmail turned into expense entries automatically</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Who can use it</h2>
+      <p>Only its owner. The app runs on the owner's own computer and is not offered to the public.</p>
+    </section>
+    <section class="card">
+      <h2>Google data</h2>
+      <p>The app reads Gmail (read-only) and reads and creates Google Calendar events for the owner's own account. Details are in the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+    <footer>Contact: pranai.live@gmail.com · <a href="privacy.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
